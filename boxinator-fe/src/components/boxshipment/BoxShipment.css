@@ -1,0 +1,84 @@
+.setup-workout-wrapper {
+    width: 90%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 10px 30px 0 rgba(0, 0, 0, 0.6);
+    color: black;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+    font-size: 1em;
+    padding-left: 0.5em;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color:#4faf36;
+    width: 30%;
+    margin: 0;
+    margin-bottom: 1em;
+    max-height: 1em;
+    border-radius: 0 0.5em 0.5em 0;
+}
+
+.workout-form-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.table-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-height: 30em;
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+.all-exercise-table-wrapper {
+    overflow: auto;
+}
+
+.workout-table {
+    border-collapse: collapse;
+    font-size: 1em;
+}
+
+.workout-table th, .workout-table td {
+    border: 0.1em solid #ddd
+}
+
+.workout-table td {
+    padding: 0.3em;
+    padding-left: 0.5em;
+}
+
+.workout-table-header {
+    font-weight: normal;
+    color: white;
+    background-color: #4faf36;
+    padding: 0.5em;
+}
+
+.total-group {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.total-shipment-cost {
+    margin-right: 0.2em;
+    margin-bottom: 0.5em;
+}
+
+.total-weight {
+    margin-left: 0.2em;
+    margin-bottom: 0.5em;
+}
