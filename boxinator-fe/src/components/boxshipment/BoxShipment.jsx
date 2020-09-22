@@ -64,19 +64,19 @@ export class BoxShipment extends React.Component {
 
         return (
 
-            <div className='setup-workout-wrapper' onMouseLeave={this.sectionLeft}>
+            <div className='box-shipment-wrapper' onMouseLeave={this.sectionLeft}>
                 <p className='card-title'>Box Listing</p>
-                <div className="workout-form-content">
+                <div className="box-shipping-form-content">
                     <div className='table-wrapper'>
                         <div className='all-exercise-table-wrapper'>
-                            <table className='workout-table'>
+                            <table className='box-shipping-table'>
                                 <thead>
-                                    <tr className='workout-table-header-row'>
-                                        <th className='workout-table-header'>Name</th>
-                                        <th className='workout-table-header'>Weight</th>
-                                        <th className='workout-table-header'>Color</th>
-                                        <th className='workout-table-header'>Country</th>
-                                        <th className='workout-table-header'>Shipment Cost</th>
+                                    <tr className='box-shipping-table-header-row'>
+                                        <th className='box-shipping-table-header'>Name</th>
+                                        <th className='box-shipping-table-header'>Weight</th>
+                                        <th className='box-shipping-table-header'>Color</th>
+                                        <th className='box-shipping-table-header'>Country</th>
+                                        <th className='box-shipping-table-header'>Shipment Cost</th>
                                     </tr>
                                 </thead>
                                 <tbody>

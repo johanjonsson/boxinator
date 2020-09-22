@@ -1,4 +1,4 @@
-.setup-workout-wrapper {
+.box-shipment-wrapper {
     width: 90%;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 10px 30px 0 rgba(0, 0, 0, 0.6);
@@ -25,7 +25,7 @@
     border-radius: 0 0.5em 0.5em 0;
 }
 
-.workout-form-content {
+.box-shipping-form-content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -45,21 +45,21 @@
     overflow: auto;
 }
 
-.workout-table {
+.box-shipping-table {
     border-collapse: collapse;
     font-size: 1em;
 }
 
-.workout-table th, .workout-table td {
+.box-shipping-table th, .box-shipping-table td {
     border: 0.1em solid #ddd
 }
 
-.workout-table td {
+.box-shipping-table td {
     padding: 0.3em;
     padding-left: 0.5em;
 }
 
-.workout-table-header {
+.box-shipping-table-header {
     font-weight: normal;
     color: white;
     background-color: #4faf36;
